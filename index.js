@@ -10,8 +10,12 @@ var express = require('express'),
 app.use(express.query());
 app.use('/wechat', wechat(config, function(req, res, next) {
     // 微信输入信息都在req.weixin上
+    console.log(req.weixin);
     var message = req.weixin;
-    res.reply("You typed: "+ message.content);
+    res.reply({
+        content: "You typed: "+ message.Content,
+        type: 'text'
+    });
 }));
 
 app.get('/', function(req, res) {
