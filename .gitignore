@@ -49,3 +49,5 @@ Temporary Items
 # Node modules
 /node_modules
 /bin
+.idea/workspace.xml
+.idea/workspace.xml
