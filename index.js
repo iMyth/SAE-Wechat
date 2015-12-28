@@ -1,7 +1,8 @@
 var express = require('express'),
+    wechat = require('wechat'),
     app = express(),
     config = {
-        token: 'token',
+        token: 'myth',
         appid: 'wx915838469a97a026',
         encodingAESKey: 'd4624c36b6795d1d99dcf0547af5443d'
     };
