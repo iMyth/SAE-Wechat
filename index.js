@@ -4,7 +4,7 @@ var express = require('express'),
     config = {
         token: 'myth',
         appid: 'wx915838469a97a026',
-        encodingAESKey: 'd4624c36b6795d1d99dcf0547af5443d'
+        encodingAESKey: 'ZIG4t6lIocAklugcN6JXClQfANkzjRov3fHh0wuFpAy'
     };
 
 app.use(express.query());
